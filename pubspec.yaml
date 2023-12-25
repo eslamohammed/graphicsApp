@@ -1,0 +1,130 @@
+name: graphics
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  bloc: ^8.1.2
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.5
+  fl_country_code_picker: ^0.1.4
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  image_picker: ^0.8.9
+  pin_code_fields: ^8.0.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/background.png
+    - assets/images/MobileNumber.png
+    - assets/images/backgroundx.png
+    - assets/images/arrowBottom.png
+    - assets/images/designer.png
+    - assets/images/designerx.png
+    - assets/images/designerxx.png
+    - assets/images/backgroundxx.png
+    - assets/images/Home.png
+    - assets/images/profilePage.png
+    - assets/images/ChatsCircle.png
+    - assets/images/wallet.png
+    - assets/images/notification.png
+    - assets/images/profileImgIcon.png
+    - assets/images/CardPic.png
+    - assets/images/CardPicx.png
+    - assets/images/profileImgIcon2.png
+    - assets/images/img.png
+    - assets/images/searchIcon.png
+    - assets/images/uploadFrame.png
+    - assets/images/uploadSample.png
+    - assets/images/roundedRightSign.png
+    - assets/images/uploadFile.png
+    - assets/images/uploadFramex.png
+    - assets/images/test.png
+    - assets/images/weAreHear.png
+    - assets/images/profileImg.png
+    - assets/images/cover.png
+    - assets/images/chatIcon.png
+    - assets/images/sampleWork1.png
+    - assets/images/sampleWork2.png
+    - assets/images/sampleWork3.png
+    - assets/images/sampleWork4.png
+    - assets/images/ortherProfilesCover.png
+    - assets/images/mychatIcon.png
+    - assets/images/myOrderIcon.png
+    - assets/images/feedbackIcon.png
+    - assets/images/passwordIcon.png
+    - assets/images/supportIcon.png
+    - assets/images/settingIcon.png
+    - assets/images/logoutIcon.png
+    - assets/images/popIcon.png
+    - assets/images/orderPic1.png
+    - assets/images/orderPic2.png
+    - assets/images/verify.png
+    - assets/images/feedbackImage.png
+  # - assets/images/back.png
+  # - assets/images/back.png
+  # - assets/images/back.png
+  # - assets/images/back.png
+  # - assets/images/profileImg.png
+  # - assets/images/Group23.png
+  # - assets/images/Group24.png
+  # - assets/images/redirecting.png
+  # - assets/images/img2.png
+  # - assets/images/Edit.png
+  # - assets/images/verify.png
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+          weight: 200
+
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Inter-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter-ExtraLight.ttf
+          weight: 200
+
+    - family: DM Serif Text
+      fonts:
+        - asset: assets/fonts/DMSerifText-Italic.ttf
+          weight: 400
+        - asset: assets/fonts/DMSerifText-Regular.ttf
+          weight: 400
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
